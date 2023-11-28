@@ -9,8 +9,8 @@ export function List() {
         <ComponentCard
           key={item.id}
           data={item.data}
-          mensagem={item.mensagem}
-          titulo={item.titulo}
+          entregas={item.entregas}
+          recebimentos={item.recebimentos}
         />
       ))}
     </S.Section>

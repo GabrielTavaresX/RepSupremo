@@ -30,11 +30,18 @@ export const NavBar = styled.nav`
     display: flex;
     align-items: center;
     height: 100%;
+    h3{
+        padding: 8rem;
+        align-items: center;
+        font-size:50px;
+        color:${colors.primary};
+      }
     li {
-      padding: 1rem;
+      padding: 3rem;
       height: 100%;
       display: flex;
       align-items: center;
+     
       a {
         text-decoration: none;
         color: var(--black);

@@ -1,5 +1,5 @@
 import * as S from "./styles"
-import Logo from "../../assets/truck.svg"
+import Logo from "../../assets/caminhao-de-entrega.png"
 import { Link, useNavigate } from "react-router-dom";
 import { GrLogout } from "react-icons/gr";
 import { useContext } from "react";
@@ -23,12 +23,17 @@ export function Header() {
             <span className="hamburger" />
           </div>
         </label>
-        <ul>
+        
+          <ul>
+          <h3>
+          Tavares fast - Seu site de entregas
+          </h3>
+          
           <li>
             <a href="/">Página Inicial</a>
           </li>
           <li>
-            <a href="/lista">Lista</a>
+            <a href="/lista">registros de entregas</a>
           </li>
         </ul>
         {

@@ -2,31 +2,31 @@ export const dados = [
   {
     id: 1,
     data: "23/06/2023 07:00:00",
-    titulo: "Aula",
-    mensagem: "Componentes"
+    entregas: "1200",
+    recebimentos: "879"
   },
   {
     id: 2,
     data: "23/06/2023 07:10:00",
-    titulo: "Aula Web",
-    mensagem: "Serviços"
+    entregas: "123",
+    recebimentos: "500"
   },
   {
     id: 3,
-    data: "23/06/2023 07:20:00",
-    titulo: "Aula React",
-    mensagem: "Rotas"
+    data: "23/06/2023 08:23:00",
+    entregas: "1590",
+    recebimentos: "765"
   },
   {
     id: 4,
-    data: "23/06/2023 07:30:00",
-    titulo: "Aula React Web",
-    mensagem: "Estilos"
+    data: "24/06/2023 09:33:00",
+    entregas: "450",
+    recebimentos: "1244"
   },
   {
     id: 5,
-    data: "23/06/2023 07:30:00",
-    titulo: "Aula React Web",
-    mensagem: "Estilos"
+    data: "25/06/2023 08:46:00",
+    entregas: "987",
+    recebimentos: "765"
   },
 ]
